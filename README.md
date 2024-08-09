@@ -5,6 +5,8 @@
 <div align="left">Emojify is a customizable emoji trail javascript library that follows your mouse cursor, embedding playfulness and personality into any webpage.</div>
 <div align="left">
 
+[Demo](https://open-emojify.github.io/emojify/)
+
 ## Installation
 
 ### CDN
