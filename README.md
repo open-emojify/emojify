@@ -50,3 +50,9 @@ new Emojify({
 ```
 
 Check out the Demo on [Codepen.](https://codepen.io/GreenestGoat/pen/gONGbBo?editors=0010)
+
+## Copyright and license
+
+Licensed under the MIT License, Copyright © 2024-present Emojify.
+
+See [LICENSE](https://github.com/open-emojify/emojify/blob/main/LICENSE) for more information.
