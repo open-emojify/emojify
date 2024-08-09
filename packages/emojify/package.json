@@ -1,7 +1,7 @@
 {
   "name": "emojify",
   "version": "0.0",
-  "description": "Emotify is a customizable emoji trail that follows your mouse cursor, embedding playfulness and personality into any webpage.",
+  "description": "Emojify is a customizable emoji trail javascript library that follows your mouse cursor, embedding playfulness and personality into any webpage.",
   "main": "emojify.min.js",
   "unpkg": "emojify.min.js",
   "scripts": {
