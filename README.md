@@ -33,3 +33,19 @@ Call the Emojify library in your Javascript. That's it 🎉.
 ```js
 new Emojify({});
 ```
+
+## Customization
+
+Emojify comes with default options that can easily be customized.
+
+```js
+new Emojify({
+    emojis: ['😊','😄','😀','😃'], // replaces the default emojis with the emojis within the string
+    random: true, // determines wether emojis should be shown as random or in order
+    duration: 500,
+    delay: 5,
+    size: '48px',
+    zIndex: 9999,
+    scaleOpacity: false,
+});
+```
