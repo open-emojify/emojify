@@ -48,3 +48,5 @@ new Emojify({
     zIndex: 9999, // z-index of emojis
 });
 ```
+
+Check out the Demo on [Codepen.](https://codepen.io/GreenestGoat/pen/gONGbBo?editors=0010)
