@@ -40,12 +40,11 @@ Emojify comes with default options that can easily be customized.
 
 ```js
 new Emojify({
-    emojis: ['😊','😄','😀','😃'], // replaces the default emojis with the emojis within the string
-    random: true, // determines wether emojis should be shown as random or in order
-    duration: 500,
-    delay: 5,
-    size: '48px',
-    zIndex: 9999,
-    scaleOpacity: false,
+    emojis: ['😊','😄','😀','😃'], // replaces the default emojis with the emojis within the string.
+    random: true, // determines wether emojis should be shown as random or in order.
+    duration: 500, // duration before hiding emojis.
+    delay: 5, // delay between showing a new emoji.
+    size: '48px', // font-size of emojis.
+    zIndex: 9999, // z-index of emojis
 });
 ```
