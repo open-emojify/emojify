@@ -7,6 +7,8 @@
 
 [Demo](https://open-emojify.github.io/emojify/)
 
+[![](https://data.jsdelivr.com/v1/package/npm/open-emojify/badge)](https://www.jsdelivr.com/package/npm/open-emojify)
+
 ## Installation
 
 ### CDN
