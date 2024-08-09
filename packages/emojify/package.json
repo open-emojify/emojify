@@ -1,0 +1,35 @@
+{
+  "name": "emojify",
+  "version": "0.0.68",
+  "description": "Mase JS is a new way to write HTML entirely in your JavaScript.",
+  "main": "import.js",
+  "unpkg": "import.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masejs/masejs.git"
+  },
+  "author": "masejs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masejs/masejs/issues"
+  },
+  "homepage": "https://github.com/masejs/masejs",
+  "keywords": [
+    "javascript",
+    "language",
+    "html",
+    "open-source",
+    "npm",
+    "documentation",
+    "library",
+    "framework",
+    "js",
+    "script",
+    "cdn",
+    "mase",
+    "masejs"
+  ]
+}
