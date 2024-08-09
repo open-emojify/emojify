@@ -2,12 +2,12 @@
 <img alt="Logo Banner" src="https://raw.githubusercontent.com/open-emojify/emojify/main/banner/banner.svg?sanitize=true"/>
 <br/>
 
+[![](https://data.jsdelivr.com/v1/package/npm/open-emojify/badge)](https://www.jsdelivr.com/package/npm/open-emojify)
+
 <div align="left">Emojify is a customizable emoji trail javascript library that follows your mouse cursor, embedding playfulness and personality into any webpage.</div>
 <div align="left">
 
 [Demo](https://open-emojify.github.io/emojify/)
-
-[![](https://data.jsdelivr.com/v1/package/npm/open-emojify/badge)](https://www.jsdelivr.com/package/npm/open-emojify)
 
 ## Installation
 
