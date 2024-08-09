@@ -11,6 +11,8 @@
 
 Import Emojify using CDN.
 
+```index.js```
+
 ```js
 import Emojify from 'https://cdn.jsdelivr.net/npm/open-emojify/emojify.min.js';
 ```
@@ -22,13 +24,10 @@ import Emojify from 'https://cdn.jsdelivr.net/npm/open-emojify/emojify.min.js@la
 
 ## Usage
 
-Import Emojify using CDN.
+Call the Emojify library in your Javascript. That's it 🎉.
+
+```index.js```
 
 ```js
-import Emojify from 'https://cdn.jsdelivr.net/npm/open-emojify/emojify.min.js';
-```
-
-#### 🚧 Specific Version
-```js
-import Emojify from 'https://cdn.jsdelivr.net/npm/open-emojify/emojify.min.js@latest';
+new Emojify({});
 ```
