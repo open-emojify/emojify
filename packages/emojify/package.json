@@ -1,35 +1,33 @@
 {
   "name": "emojify",
-  "version": "0.0.68",
-  "description": "Mase JS is a new way to write HTML entirely in your JavaScript.",
-  "main": "import.js",
-  "unpkg": "import.min.js",
+  "version": "0.0",
+  "description": "Emotify is a customizable emoji trail that follows your mouse cursor, embedding playfulness and personality into any webpage.",
+  "main": "emojify.min.js",
+  "unpkg": "emojify.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/masejs/masejs.git"
+    "url": "git+https://github.com/open-emojify/emojify.git"
   },
   "author": "masejs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/masejs/masejs/issues"
+    "url": "https://github.com/open-emojify/emojify/issues"
   },
-  "homepage": "https://github.com/masejs/masejs",
+  "homepage": "https://open-emojify.github.io/emojify/",
   "keywords": [
     "javascript",
-    "language",
+    "css",
+    "emoji",
     "html",
     "open-source",
-    "npm",
-    "documentation",
     "library",
-    "framework",
-    "js",
-    "script",
-    "cdn",
-    "mase",
-    "masejs"
+    "customization",
+    "mouse",
+    "emojify",
+    "cursor",
+    "trail"
   ]
 }
