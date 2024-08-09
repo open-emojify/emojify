@@ -36,7 +36,7 @@ new Emojify({});
 
 ## Customization
 
-Emojify comes with default options that can easily be customized.
+Emojify comes with options / variables that can easily be customized.
 
 ```js
 new Emojify({
