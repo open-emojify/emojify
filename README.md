@@ -35,7 +35,7 @@ Call the Emojify library in your Javascript. That's it 🎉.
 ```index.js```
 
 ```js
-new Emojify({});
+window.emojify = new Emojify({});
 ```
 
 ## Customization
@@ -43,7 +43,7 @@ new Emojify({});
 Emojify comes with options / variables that can easily be customized.
 
 ```js
-new Emojify({
+window.emojify = new Emojify({
     emojis: ['😊','😄','😀','😃'], // replaces default emojis with emojis within a string
     random: true, // determines if emojis should be shown random or in order
     duration: 500, // duration before hiding emojis

@@ -1,6 +1,6 @@
 {
   "name": "open-emojify",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Emojify is a customizable emoji trail javascript library that follows your mouse cursor, embedding playfulness and personality into any webpage.",
   "main": "emojify.min.js",
   "unpkg": "emojify.min.js",
