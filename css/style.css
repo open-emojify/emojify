@@ -30,9 +30,18 @@ body {
 }
 
 #github {
-    position: fixed;
     left: 48px;
     bottom: 48px;
+}
+
+#codepen {
+    left: 158px;
+    bottom: 48px;
+}
+
+#codepen,
+#github {
+    position: fixed;
     height: 88px;
     width: 88px;
     align-items: center;
@@ -46,6 +55,7 @@ body {
     background-color: transparent;
 }
 
+#codepen svg,
 #github svg {
     height: 88px;
     width: 88px;
