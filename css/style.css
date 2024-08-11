@@ -98,12 +98,14 @@ body {
     z-index: 999999999;
     position: fixed;
     bottom: 48px;
-    right: 116px;
+    right: 48px;
+    display: flex;
+    /* right: 116px; */
     background-color: #111111;
     border-radius: 6px;
     overflow: hidden;
     text-align: center;
-    display: none;
+    /* display: none; */
     color: white;
     align-items: center;
     justify-content: center;
