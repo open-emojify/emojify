@@ -66,7 +66,7 @@
     <span class="code-yellow code-line">window<span class="code-white">.</span><span class="code-purple">emojify</span><span class="code-white"> = </span><span class="code-yellow">new </span><span class="code-yellow">Emojify</span><span class="code-white">({</span></span>
       <!-- <span class="code-purple code-line code-start">&nbsp;random<span class="code-white">: </span><span id="emojify-random" class="code-yellow"  onkeypress="return isLetter(event)">true</span><span class="code-white">,</span></span> -->
       <span class="code-purple code-line code-start">&nbsp;duration<span class="code-white">: </span><span id="emojify-duration" contenteditable="true" class="code-orange" onkeypress="return isNumber(event)">500</span><span class="code-white">,</span></span>
-      <span class="code-purple code-line code-start">&nbsp;delay<span class="code-white">: </span><span id="emojify-delay" contenteditable="true" class="code-orange" onkeypress="return isNumber(event)">5</span><span class="code-white">,</span></span>
+      <span class="code-purple code-line code-start">&nbsp;delay<span class="code-white">: </span><span id="emojify-delay" contenteditable="true" class="code-orange" onkeypress="return isNumber(event)">15</span><span class="code-white">,</span></span>
       <!-- <span class="code-purple code-line code-start">&nbsp;size<span class="code-white">: </span><span id="emojify-size" contenteditable="false" class="code-green">'48px'</span><span class="code-white">,</span></span> -->
       <span class="code-purple code-line code-start">&nbsp;zIndex<span class="code-white">: </span><span id="emojify-z-index" contenteditable="true" class="code-orange" onkeypress="return isNumber(event)">9999</span><span class="code-white">,</span></span>
     <span class="code-white code-line">});</span>
@@ -104,7 +104,7 @@
     emojifyzIndex.textContent = '9999';
 
     window.emojify.options['duration'] = 500;
-    window.emojify.options['delay'] = 5;
+    window.emojify.options['delay'] = 15;
     window.emojify.options['zIndex'] = 9999;
   });
 </script>
