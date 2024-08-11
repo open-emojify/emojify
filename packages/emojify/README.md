@@ -47,7 +47,7 @@ window.emojify = new Emojify({
     emojis: ['😊','😄','😀','😃'], // replaces default emojis with emojis within a string
     random: true, // determines if emojis should be shown random or in order
     duration: 500, // duration before hiding emojis
-    delay: 5, // delay between showing a new emoji
+    delay: 15, // delay between showing a new emoji
     size: '48px', // font-size of emojis
     zIndex: 9999, // z-index of emojis
 });
