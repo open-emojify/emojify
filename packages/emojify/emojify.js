@@ -82,6 +82,6 @@ class Emojify {
       `;
       document.head.appendChild(style);
     }
-  }
+}
   
-  export default Emojify;
+export default Emojify;
