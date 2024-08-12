@@ -44,7 +44,7 @@ Emojify comes with options / variables that can easily be customized.
 
 ```js
 window.emojify = new Emojify({
-    emojis: ['😊','😄','😀','😃'], // replaces default emojis with emojis within a string
+    emojis: ['😂','😎','😍','😀'], // replaces default emojis with emojis within a string
     random: true, // determines if emojis should be shown random or in order
     duration: 500, // duration before hiding emojis
     delay: 15, // delay between showing a new emoji
