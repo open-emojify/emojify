@@ -9,7 +9,7 @@
 <div align="left">Emojify is a customizable emoji trail javascript library that follows your mouse cursor, embedding playfulness and personality into any webpage.</div>
 <div align="left">
 
-[Demo](https://open-emojify.github.io/emojify/)
+[Demo](https://open-emojify.github.io/emojify/)  
 
 ## Installation
 
@@ -54,6 +54,8 @@ window.emojify = new Emojify({
 ```
 
 Check out the Demo on [Codepen.](https://codepen.io/GreenestGoat/pen/gONGbBo?editors=0010)
+
+Emojify is also a [Chrome Extension.](https://github.com/open-emojify/emojify-extension)
 
 ## Copyright and license
 
