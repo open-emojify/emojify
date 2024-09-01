@@ -25,7 +25,7 @@ Import Emojify using CDN.
 
 #### 🚧 Specific Version
 ```html
-<script src="https://cdn.jsdelivr.net/npm/open-emojify/emojify.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/open-emojify@0.0.15/emojify.min.js"></script>
 ```
 
 ## Usage
