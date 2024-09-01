@@ -183,7 +183,7 @@ body {
 }
 
 .code-green {
-    color: #96B38A;
+    color: #96b38a;
 }
 
 .code-orange {
@@ -192,4 +192,8 @@ body {
 
 .code-blue {
     color: #809bbd;
+}
+
+.code-brown {
+    color: #a7925a;
 }

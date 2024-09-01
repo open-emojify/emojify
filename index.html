@@ -62,15 +62,18 @@
   <div id="code-block">
     <button title="Copy code to clipboard" aria-label="Code Copy Button" tabindex="0" id="code-copy-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg></button>
     <button title="Reset code to default values" aria-label="Code Rest Button" tabindex="0" id="code-reset-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rotate-ccw"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg></button>
-    <!--<span class="code-yellow code-line">import <span class="code-blue">Emojify </span><span class="code-yellow">from </span><span class="code-green">'https://cdn.jsdelivr.net/npm/open-emojify/emojify.min.js'</span><span class="code-white">;</span></span>
-    <span class="code-line">&nbsp;</span>-->
-    <span class="code-yellow code-line">window<span class="code-white">.</span><span class="code-purple">emojify</span><span class="code-white"> = </span><span class="code-yellow">new </span><span class="code-yellow">Emojify</span><span class="code-white">({</span></span>
+    <!--<span class="code-yellow code-line">import <span class="code-blue">Emojify </span><span class="code-yellow">from </span><span class="code-green">'https://cdn.jsdelivr.net/npm/open-emojify/emojify.min.js'</span><span class="code-white">;</span></span>-->
+    <span class="code-brown code-line">&lt;script<span class="code-yellow">&nbsp;src</span><span class="code-white">=</span><span class="code-green">"https://cdn.jsdelivr.net/npm/open-emojify@0.0.15/emojify.min.js"</span><span class="code-brown">&gt;&lt;/script&gt;</span></span>
+    <span class="code-line">&nbsp;</span>
+    <span class="code-brown code-line">&lt;script&gt;</span>
+    <span class="code-yellow code-line">&nbsp;&nbsp;window<span class="code-white">.</span><span class="code-purple">emojify</span><span class="code-white"> = </span><span class="code-yellow">new </span><span class="code-yellow">Emojify</span><span class="code-white">({</span></span>
       <!-- <span class="code-purple code-line code-start">&nbsp;random<span class="code-white">: </span><span id="emojify-random" class="code-yellow"  onkeypress="return isLetter(event)">true</span><span class="code-white">,</span></span> -->
-      <span class="code-purple code-line code-start">&nbsp;duration<span class="code-white">: </span><span id="emojify-duration" contenteditable="true" class="code-orange" onkeypress="return isNumber(event)">500</span><span class="code-white">,</span></span>
-      <span class="code-purple code-line code-start">&nbsp;delay<span class="code-white">: </span><span id="emojify-delay" contenteditable="true" class="code-orange" onkeypress="return isNumber(event)">15</span><span class="code-white">,</span></span>
+      <span class="code-purple code-line code-start">&nbsp;&nbsp;&nbsp;&nbsp;duration<span class="code-white">: </span><span id="emojify-duration" contenteditable="true" class="code-orange" onkeypress="return isNumber(event)">500</span><span class="code-white">,</span></span>
+      <span class="code-purple code-line code-start">&nbsp;&nbsp;&nbsp;&nbsp;delay<span class="code-white">: </span><span id="emojify-delay" contenteditable="true" class="code-orange" onkeypress="return isNumber(event)">15</span><span class="code-white">,</span></span>
       <!-- <span class="code-purple code-line code-start">&nbsp;size<span class="code-white">: </span><span id="emojify-size" contenteditable="false" class="code-green">'48px'</span><span class="code-white">,</span></span> -->
-      <span class="code-purple code-line code-start">&nbsp;zIndex<span class="code-white">: </span><span id="emojify-z-index" contenteditable="true" class="code-orange" onkeypress="return isNumber(event)">9999</span><span class="code-white">,</span></span>
-    <span class="code-white code-line">});</span>
+      <span class="code-purple code-line code-start">&nbsp;&nbsp;&nbsp;&nbsp;zIndex<span class="code-white">: </span><span id="emojify-z-index" contenteditable="true" class="code-orange" onkeypress="return isNumber(event)">9999</span><span class="code-white">,</span></span>
+    <span class="code-white code-line">&nbsp;&nbsp;});</span>
+    <span class="code-brown code-line">&lt;/script&gt;</span>
   </div>
 </body>
 <script type="module">
