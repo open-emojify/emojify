@@ -17,22 +17,22 @@
 
 Import Emojify using CDN.
 
-```index.js```
+```index.html```
 
-```js
-import Emojify from 'https://cdn.jsdelivr.net/npm/open-emojify/emojify.min.js';
+```html
+<script src="https://cdn.jsdelivr.net/npm/open-emojify/emojify.min.js"></script>
 ```
 
 #### 🚧 Specific Version
-```js
-import Emojify from 'https://cdn.jsdelivr.net/npm/open-emojify/emojify.min.js@latest';
+```html
+<script src="https://cdn.jsdelivr.net/npm/open-emojify/emojify.min.js"></script>
 ```
 
 ## Usage
 
 Call the Emojify library in your Javascript. That's it 🎉.
 
-```index.js```
+```main.js```
 
 ```js
 window.emojify = new Emojify({});

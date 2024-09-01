@@ -83,5 +83,7 @@ class Emojify {
       document.head.appendChild(style);
     }
 }
-  
-export default Emojify;
+
+if (typeof window !== 'undefined') {
+  window.Emojify = Emojify;
+}
